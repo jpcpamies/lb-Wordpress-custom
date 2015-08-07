@@ -261,21 +261,49 @@ p {
 /*------------------------------------*    $LAYOUT 
 \*------------------------------------*/
 /* movilxs */
-.main-header {
-  background-color: #4caf50;
+.Main-header {
+  background-color: #ff9800;
   padding: 16px;
 }
-.main-header .title {
+.Main-header .Title {
   font-size: 34px;
   line-height: 40px;
   color: #fff;
   margin-bottom: 0.5em;
   font-weight: normal;
 }
-.main-header .subtitle {
+.Main-header .Subtitle {
   font-size: 24px;
   line-height: 32px;
   font-weight: normal;
   color: #fff;
   margin-bottom: 0.5em;
+}
+.Main {
+  padding: 8px;
+}
+.Course-post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.Cours-post__header {
+  margin-left: 16px;
+}
+.Course-post__logo {
+  order: -1;
+}
+.Course-post__logo img {
+  width: 60px;
+  height: auto;
+}
+.Course-post__link {
+  width: 100px;
+}
+.Course-post__link a {
+  color: #f44336;
 }

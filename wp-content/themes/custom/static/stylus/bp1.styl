@@ -28,20 +28,82 @@ gutter = 16px
 /**
  * ^header
  */
-.main-header
+.Main-header
 	background-color primary-color
 	padding gutter
-	.title
+	.Title
 		font-size 34px
 		line-height 40px
 		color white
 		margin-bottom .5em
 		font-weight normal
-	.subtitle
+	.Subtitle
 		font-size 24px
 		line-height 32px
 		font-weight normal
 		color white
 		margin-bottom .5em
+		
+.Main
+	padding (gutter / 2)
+
+
+/**
+ * ^loop ^course ^post
+ */
+.Course-post
+	//display -webkit-box
+	//display -webkit-flex
+	//display -moz-flex
+	//display -ms-flexbox
+	display flex
+	justify-content space-around
+	align-items center
+	padding gutter
+	padding-top (gutter * 1.5 )
+	padding-bottom (gutter * 1.5 )
+	// background-color test
+	border-bottom 1px solid divider
+
+.Cours-post__header
+	// background-color test2
+	margin-left gutter
+	
+.Course-post__logo
+	// background-color test2
+	order -1
+	img
+		width 60px
+		height auto
+		
+.Course-post__link
+	// background-color test2
+	width 100px
+	a
+		color light-color 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
