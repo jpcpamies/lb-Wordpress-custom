@@ -5652,6 +5652,116 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/uploads\/2015\/08\/amma-big-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6652,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/amma-big-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/amma-big-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/amma-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3744,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/amma-big.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/amma-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/ampuku-big-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7682,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/ampuku-big-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/ampuku-big-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/ampuku-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4038,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/ampuku-big.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/ampuku-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/kinergeticsReset-big-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6618,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinergeticsReset-big-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinergeticsReset-big-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/kinergeticsReset-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3777,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinergeticsReset-big.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinergeticsReset-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/kinesiologiaIntegrada-big-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10292,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinesiologiaIntegrada-big-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinesiologiaIntegrada-big-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/kinesiologiaIntegrada-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5433,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinesiologiaIntegrada-big.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/kinesiologiaIntegrada-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/naturopatia-big-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7140,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/naturopatia-big-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/naturopatia-big-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/08\/naturopatia-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3893,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/naturopatia-big.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/08\/naturopatia-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/08\/shutterstock_83107405-1024x697.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -77,14 +77,25 @@ video {
   padding: 0;
   border: 0;
   outline: 0;
-  vertical-align: baseline;
-  background: transparent;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
 }
 img {
   max-width: 100%;
   border-width: 0;
   vertical-align: middle;
-  -ms-interpolation-mode: bicubic;
 }
 /*------------------------------------*    $COLORES
 \*------------------------------------*/
@@ -239,50 +250,38 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: #fafafa;
-  margin: 0;
-}
-h1,
-.h1 {
-  margin: 0;
-}
-h2,
-.h2 {
-  margin: 0;
-}
-h3,
-.h3 {
-  margin: 0;
-}
-p {
-  margin: 0;
 }
 /*------------------------------------*    $UTILIDADES
 \*------------------------------------*/
 /*------------------------------------*    $LAYOUT 
 \*------------------------------------*/
 /* movilxs */
+.ModuleA {
+  margin-top: 50px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 50px;
+}
+.ModuleB {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .Main-header {
   background-color: #ff9800;
   padding: 16px;
 }
 .Main-header .Title {
-  font-size: 34px;
-  line-height: 40px;
   color: #fff;
-  margin-bottom: 0.5em;
-  font-weight: normal;
+  margin-bottom: 17px;
 }
 .Main-header .Subtitle {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: normal;
   color: #fff;
-  margin-bottom: 0.5em;
 }
-.Main {
-  padding: 8px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.Landing-banner__container {
+  text-align: center;
+}
+.Landing-banner__title {
+  margin-bottom: 24px;
 }
 .Category {
   margin-bottom: 30px;
@@ -300,9 +299,12 @@ p {
   border-radius: 10px 10px 0 0;
 }
 .Course-post {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   padding: 16px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -312,6 +314,7 @@ p {
   margin-left: 16px;
 }
 .Course-post__logo {
+  -webkit-order: -1;
   order: -1;
 }
 .Course-post__logo img {
@@ -319,7 +322,7 @@ p {
   height: auto;
 }
 .Course-post__link {
-  width: 100px;
+  width: 110px;
 }
 .Course-post__link a {
   color: #f44336;
