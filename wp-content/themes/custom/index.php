@@ -9,26 +9,62 @@
 		</header>
 	</section>
 	<section class="Main">
-		<?php query_posts( 'order=Des' ); ?>
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<article>
-				<div class="Course-post">
-					<header class='Cours-post__header'>
-						<h3><?php the_title( ); ?></h3>
-					</header>
-					<figure class='Course-post__logo'>
-						<?php the_post_thumbnail( 'thumbnail' ); ?>
-					</figure>
-					<footer class='Course-post__link'>
-						<a href="<?php the_permalink(); ?>">Saber más</a>
-					</footer>
-				</div>
-			</article>
-		<?php endwhile; ?>
-		<!-- post navigation -->
-		<?php else: ?>
-		<!-- no posts found -->
-		<?php endif; ?>
+
+		<div class="Category Category-1">
+			<div class="Category__header">
+				<h3>Flores</h3>
+			</div>
+			<div class="Category__body">
+				<?php query_posts( 'order=Des&cat=2' ); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<article>
+						<div class="Course-post">
+							<header class='Cours-post__header'>
+								<h3><?php the_title( ); ?></h3>
+							</header>
+							<figure class='Course-post__logo'>
+								<?php the_post_thumbnail( 'thumbnail' ); ?>
+							</figure>
+							<footer class='Course-post__link'>
+								<?php the_content( ); ?>
+							</footer>
+						</div>
+					</article>
+				<?php endwhile; ?>
+				<!-- post navigation -->
+				<?php else: ?>
+				<!-- no posts found -->
+				<?php endif; ?>
+			</div>
+		</div>
+
+		<div class="Category Category-2">
+			<div class="Category__header">
+				<h3>Frutas</h3>
+			</div>
+			<div class="Category__body">
+				<?php query_posts( 'order=Des&cat=3' ); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<article>
+						<div class="Course-post">
+							<header class='Cours-post__header'>
+								<h3><?php the_title( ); ?></h3>
+							</header>
+							<figure class='Course-post__logo'>
+								<?php the_post_thumbnail( 'thumbnail' ); ?>
+							</figure>
+							<footer class='Course-post__link'>
+								<?php the_content( ); ?>
+							</footer>
+						</div>
+					</article>
+				<?php endwhile; ?>
+				<!-- post navigation -->
+				<?php else: ?>
+				<!-- no posts found -->
+				<?php endif; ?>
+			</div>
+		</div>
 		
 	</section>
 </body>

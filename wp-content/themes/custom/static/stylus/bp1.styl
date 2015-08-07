@@ -46,11 +46,30 @@ gutter = 16px
 		
 .Main
 	padding (gutter / 2)
+	padding-top 30px
+	padding-bottom 30px
 
 
 /**
- * ^loop ^course ^post
+ * ^loop ^course ^category ^post
  */
+.Category
+	margin-bottom 30px
+.Category-1
+	.Category__header
+		background-color link-color
+.Category-2
+	.Category__header
+		background-color green		
+
+	
+.Category__header
+	padding gutter
+	color white
+	text-transform uppercase
+	border-radius 10px 10px 0 0
+
+
 .Course-post
 	//display -webkit-box
 	//display -webkit-flex
@@ -80,7 +99,7 @@ gutter = 16px
 	// background-color test2
 	width 100px
 	a
-		color light-color 
+		color link-color 
 	
 
 
