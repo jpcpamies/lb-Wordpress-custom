@@ -11,7 +11,7 @@
 	</div>
 	<div class="Main  ModuleA">
 		<section class="Landing-banner  ModuleB">
-			<div class="Landing-banner__container">
+			<div class="Landing-banner__outer">
 				<?php query_posts( 'cat=4' ); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<header class='Landing-banner__title  headline'>

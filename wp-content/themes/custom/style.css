@@ -277,7 +277,7 @@ body {
 .Main-header .Subtitle {
   color: #fff;
 }
-.Landing-banner__container {
+.Landing-banner__outer {
   text-align: center;
 }
 .Landing-banner__title {
@@ -338,4 +338,21 @@ body {
 .footer-item {
   display: table-cell;
   padding: 16px;
+}
+.Course-header {
+  background-color: #ffa500;
+  padding: 16px;
+}
+.Course-header__title {
+  color: #fff;
+}
+.Course-header__subtitle {
+  color: #fff;
+}
+.Ideal-para {
+  display: table;
+  background-color: #808080;
+}
+.Content {
+  display: table-cell;
 }
