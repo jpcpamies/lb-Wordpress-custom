@@ -327,3 +327,15 @@ body {
 .Course-post__link a {
   color: #f44336;
 }
+.footer {
+  background-color: rgba(0,0,0,0.8);
+  padding: 16px;
+  color: #fff;
+}
+.module-footer {
+  display: table;
+}
+.footer-item {
+  display: table-cell;
+  padding: 16px;
+}
