@@ -8,10 +8,111 @@
 
 
 
+
+/*------------------------------------*\
+    $TIPOGRAFÍA
+\*------------------------------------*/
+.display4
+	font-size 112px
+	font-weight 300
+	color rgba(#000000,.54) 
+.display3
+	font-size 56px
+	font-weight 300
+	color rgba(#000000,.54)
+.display2
+	font-size 45px
+	font-weight 400
+	line-height 48px
+	color rgba(#000000,.54)
+.display1
+	font-size 34px
+	font-weight 400
+	line-height 40px
+	margin-bottom 30px
+	color rgba(#000000,.54)
+.headline
+	font-size 24px
+	font-weight 400
+	line-height 32px
+	margin-bottom .5em
+	color rgba(#000000,.87)
+.title
+	font-size 20px
+	font-weight 400
+	line-height 32px
+	margin-bottom 32px
+	color rgba(#000000,.87)
+	&:last-child
+		margin-bottom 0
+.subhead2
+	font-size 16px
+	font-weight 400
+	line-height 28px
+	color rgba(#000000,.87)
+.subhead1
+	font-size 16px
+	font-weight 400
+	line-height 24px
+	color rgba(#000000,.87)
+.body2
+	font-size 14px
+	font-weight 400
+	line-height 24px
+	margin-bottom .5em
+	color rgba(#000000,.87)
+.body1
+	font-size 14px
+	font-weight 400
+	line-height 20px
+	margin-bottom .5em
+	color rgba(#000000,.87)
+.caption
+	font-size 15px
+	font-weight 400
+	color rgba(#000000,.54)
+/**
+ * La clase de estos dos tipos de fuente llevan
+ * -font al final, mientras que todos los demás
+ * no lo llevan
+ */
+.menu-font
+	font-size 14rem
+	font-weight medium
+	color rgba(#000000,.87)
+.button-font
+	font-size 14rem
+	font-weight medium
+	color rgba(#000000,.87)
+	text-transform uppercase
+
+
+
+
 /*------------------------------------*\
     $GRID Y MÁRGENES
 \*------------------------------------*/
 gutter = 16px
+/**
+ * ^modules ^margins
+ */
+.Module-outer
+	margin-right (gutter/2)
+	margin-left (gutter/2)
+.Module-outer1
+	padding-right (gutter/2)
+	padding-left (gutter/2)
+.Module-inner
+	margin-top 30px
+	margin-bottom 30px
+.Module-inner1
+	padding-top 30px
+	padding-bottom 30px
+/**
+ * ^modules ^text-formating
+ */	
+.Module-body__center
+	text-align center
 
 
 
@@ -20,18 +121,6 @@ gutter = 16px
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
-/**
- * ^modules ^home ^course-feed
- */
-.ModuleA
-	margin-top 50px
-	margin-right (gutter/2)
-	margin-left (gutter/2)
-	margin-bottom 50px
-.ModuleB
-	margin-top 50px
-	margin-bottom 50px
-
 /**
  * ^header
  */
@@ -126,6 +215,7 @@ gutter = 16px
 	background-color gray
 .Content
 	display table-cell
+
 	
 
 
