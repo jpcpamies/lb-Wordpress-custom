@@ -96,6 +96,7 @@ img {
   max-width: 100%;
   border-width: 0;
   vertical-align: middle;
+  height: auto;
 }
 /*------------------------------------*    $COLORES
 \*------------------------------------*/
@@ -444,6 +445,9 @@ body {
   display: table;
   background-color: #808080;
 }
-.Content {
-  display: table-cell;
+.Aprenderas {
+  background-color: #d3d3d3;
+}
+.Aprenderas__list {
+  margin-left: 16px;
 }
