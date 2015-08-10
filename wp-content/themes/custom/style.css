@@ -361,6 +361,8 @@ body {
 .Main-header {
   background-color: #ff9800;
   padding: 16px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .Main-header .Title {
   color: #fff;
@@ -481,4 +483,27 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.2em;
+}
+.Nav-header {
+  background-color: #f57c00;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.Nav-header__logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);
+}
+.Nav__list {
+  list-style: none;
+}
+.Nav__list li {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.Nav__list li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);
 }

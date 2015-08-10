@@ -6,7 +6,6 @@ Template Name: Página curso
 
 <?php get_header(); ?>
 
-<body>
 	<header class='Course-header'>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<h1 class="Course-header__title  display1"><?php the_title( ); ?></h1>

@@ -6,7 +6,6 @@ Template Name: Página Blog
 
 <?php get_header(); ?>
 
-<body>
 	<?php query_posts( 'cat=1' ); ?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<article class='post'>
@@ -18,7 +17,7 @@ Template Name: Página Blog
 					</div>
 				</header>
 				<figure class='img'>
-					<?php the_post_thumbnail( 'full' ); ?>
+					<?php the_post_thumbnail( 'medium' ); ?>
 				</figure>
 				<footer>
 					<?php the_excerpt(); ?>

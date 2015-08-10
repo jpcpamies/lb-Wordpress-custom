@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<body>
 	<div class="Header">
 		<header>
 			<div class="Main-header">

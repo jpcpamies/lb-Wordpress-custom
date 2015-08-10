@@ -4,6 +4,19 @@ add_theme_support('post-thumbnails');
 
 
 
+function register_my_menus() {
+	register_nav_menus( 
+			array(
+				'menu-header' => __('Navegación del encabezado'), 
+				)
+		);
+} 
+add_action( 'init', 'register_my_menus' );
+
+
+
+
+
 // Widget 'IDEAL PARA'
 function miplugin_register_sidebar() {
 	register_sidebar( 

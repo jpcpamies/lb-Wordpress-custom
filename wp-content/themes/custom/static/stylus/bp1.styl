@@ -137,6 +137,8 @@ gutter = 16px
 .Main-header
 	background-color primary-color
 	padding gutter
+	padding-top (gutter*3)
+	padding-bottom (gutter*3)
 	.Title
 		color white
 		margin-bottom  ( 34px / 2)
@@ -268,6 +270,35 @@ gutter = 16px
 			font-weight 500	
 			font-size 1.2em
 
+
+
+
+
+/*------------------------------------*\
+    $MENU
+\*------------------------------------*/
+/**
+ * ^menu ^header
+ */
+.Nav-header 
+	background-color primary500
+	padding gutter
+	display flex
+	justify-content space-between
+.Nav-header__logo
+	text-decoration none
+	font-weight bold
+	color rgba(black,.8)
+	
+.Nav__list
+	list-style none
+	li
+		margin-left gutter
+		margin-right gutter
+		a
+			text-decoration none
+			font-weight bold
+			color rgba(black,.8)
 	
 	
 
