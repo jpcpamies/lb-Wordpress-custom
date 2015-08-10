@@ -396,10 +396,11 @@ body {
 }
 .Course-post {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
+  display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
   padding: 16px;
   padding-top: 24px;
@@ -513,4 +514,9 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: rgba(0,0,0,0.8);
+}
+.flores-blog {
+  width: 50px;
+  height: 50px;
+  background-color: #f00;
 }

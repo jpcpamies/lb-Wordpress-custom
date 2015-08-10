@@ -8,6 +8,17 @@ Template Name: Página Blog
 
 	<?php query_posts( 'cat=1' ); ?>
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<!-- Test if the current post is in category 3. -->
+			 	<!-- If it is, the div box is given the CSS class "post-cat-three". -->
+			 	<!-- Otherwise, the div box is given the CSS class "post". -->
+			<div>
+			 	<?php if ( in_category( '6' ) ) : ?>
+			 		<div class="flores-blog">
+			 	<?php else : ?>
+			 		<div class="post">
+			 	<?php endif; ?>
+			</div>
+
 			<article class='post'>
 				<header>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title( ); ?></a></h3>
