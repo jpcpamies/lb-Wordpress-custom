@@ -31,4 +31,8 @@
 		<?php endif; ?>
 	</div>
 
+	<footer>
+		<?php dynamic_sidebar( 'suscribe' ); ?>
+	</footer>
+
 <?php get_footer( ); ?>

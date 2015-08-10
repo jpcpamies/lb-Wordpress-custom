@@ -46,5 +46,17 @@ function miplugin_register_sidebar3() {
 }
 add_action( 'widgets_init', 'miplugin_register_sidebar3' );
 
-
+// Widget 'SUSCRIBE'
+function miplugin_register_sidebar4() {
+	register_sidebar( 
+		array (
+			'id' => 'suscribe', 
+			'name' => 'Suscripción al Newslleter',
+			'description' => 'Suscripción al Newslleter.',
+			'before_widget' => '<div class="Ideal-para__outer">',
+			'after_widget' => '</div>',
+		)	
+	);
+}
+add_action( 'widgets_init', 'miplugin_register_sidebar4' );
 
