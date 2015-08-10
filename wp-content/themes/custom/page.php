@@ -20,6 +20,7 @@ Template Name: Página con sidebar
 	<main>
 		<?php dynamic_sidebar( 'ideal-para' ); ?>
 		<?php dynamic_sidebar( 'aprenderas' ); ?>
+		<?php dynamic_sidebar( 'detalle' ); ?>
 	</main>
 
 <?php get_footer( ); ?>

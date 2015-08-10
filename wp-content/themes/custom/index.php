@@ -9,8 +9,8 @@
 			</div>
 		</header>
 	</div>
-	<div class="Main  ModuleA">
-		<section class="Landing-banner  ModuleB">
+	<div class="Main  Module-outer">
+		<section class="Landing-banner  Module-inner">
 			<div class="Landing-banner__outer">
 				<?php query_posts( 'cat=4' ); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -28,7 +28,7 @@
 			</div>
 		</section>
 		<section class="Courses-feed">
-			<div class="Category Category-1  ModuleB">
+			<div class="Category Category-1  Module-inner">
 				<div class="Category__header">
 					<h3>Flores</h3>
 				</div>
@@ -55,7 +55,7 @@
 					<?php endif; ?>
 				</div>
 			</div>
-			<div class="Category Category-2  ModuleB">
+			<div class="Category Category-2  Module-inner">
 				<div class="Category__header">
 					<h3>Frutas</h3>
 				</div>
