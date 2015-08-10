@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Página con sidebar
+Template Name: Página curso
 */
  ?>
 
