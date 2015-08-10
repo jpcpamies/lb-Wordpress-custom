@@ -98,6 +98,8 @@ img {
   vertical-align: middle;
   height: auto;
 }
+/*------------------------------------*    $MIXINS
+\*------------------------------------*/
 /*------------------------------------*    $COLORES
 \*------------------------------------*/
 .primary-text {
@@ -487,7 +489,12 @@ body {
 .Nav-header {
   background-color: #f57c00;
   padding: 16px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
 }
 .Nav-header__logo {

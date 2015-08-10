@@ -6,6 +6,7 @@
 	<title><?php bloginfo( 'description' ); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
+	<script src='prefixfree.min.js'></script>
 </head>
 <body>
 	<?php include TEMPLATEPATH . '/nav.php' ?>

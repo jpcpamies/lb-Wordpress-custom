@@ -19,6 +19,24 @@ Version: 1.0
 
 
 
+
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+flex()
+	display -webkit-box      /* OLD - iOS 6-, Safari 3.1-6 */
+	display -moz-box        /* OLD - Firefox 19- (buggy but mostly works) */
+	display -ms-flexbox     /* TWEENER - IE 10 */
+	display -webkit-flex    /* NEW - Chrome */
+	display flex 
+	
+justify(parametro)
+	-webkit-justify-content parametro
+	justify-content parametro
+
+
+	
+
 /*------------------------------------*\
     $COLORES
 \*------------------------------------*/
@@ -31,16 +49,22 @@ media = #d0d0d0
 green = #4CAF50
 rojo = #F44336
 naranja = #FF9800
+
 test = rgba(black,.3)
 test2 = rgba(black,.5)
+
 .primary-text 
 	color rgba(#000000,.87)
+primary-text = color rgba(#000000,.87)
 .secundary-text 
 	color rgba(#000000,.54)
+secundary-text = color rgba(#000000,.54)
 .hint-text 
 	color rgba(#000000,.26)
+hint-text = color rgba(#000000,.26)
 .divider 
 	color rgba(#000000,.12)
+divider = color rgba(#000000,.12)
 divider = rgba(#000000,.12)
 
 
